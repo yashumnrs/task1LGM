@@ -1,0 +1,305 @@
+body {
+    background-color: rgb(41, 80, 126);
+}
+
+button {
+    background-color: rgb(115, 182, 28);
+    font-weight: bolder;
+    border: none;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 30%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+
+/*Heading and Welcome Part, Class heading*/
+
+.heading h2 {
+    text-align: center;
+    color: rgb(46, 155, 32);
+    font-size: 50px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.heading nav {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    background-origin: padding-box;
+}
+
+.heading {
+    background-image: url(image.jpg);
+    width: 1515px;
+    height: 880px;
+    background-repeat: no-repeat;
+}
+
+.heading nav a {
+    color: rgb(253, 7, 179);
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.heading p {
+    color: rgb(20, 20, 20);
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+
+.heading button {
+    background-color: rgb(53, 172, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+
+
+/*Welcome Part*/
+
+.come0 {
+    background-image: url("struct.jpg");
+    background-size: 1500px 800px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.come0 h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: aliceblue;
+}
+
+.come0 p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(131, 155, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.come0 table {
+    border-collapse: separate;
+    border-spacing: 70px 10px;
+    width: 700px;
+    margin-top: 160px;
+    margin-left: 400px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.t button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 13px;
+}
+
+.come0 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/*services class*/
+
+.SEVICES {
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: grey;
+}
+
+.SERVICES h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SERVICES table {
+    border-collapse: separate;
+    border-spacing: 155px 10px;
+    width: 1450px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.SERVICES button {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 13px;
+}
+
+.SERVICES img {
+    height: 250px;
+    width: 180px;
+    border-radius: 10px
+}
+
+
+/* BLOG  */
+
+main-section {
+    font-size: 38px;
+    padding: 10px;
+}
+
+b #contactUs {
+    align-content: center;
+    text-align: center;
+}
+
+.one {
+    padding-top: 150px;
+}
+
+.two {
+    font-size: 20px;
+    padding: 20px;
+}
+
+div.main-body {
+    display: grid;
+    grid-template-columns: minmax(300px, auto)1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+}
+
+nav #navbar {
+    grid-area: navbar;
+    position: fixed;
+}
+
+nav #navbar a {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+main #main-doc {
+    grid-area: mainContent;
+}
+
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+code {
+    background-color: #CCC;
+    display: block;
+    padding: 20px;
+}
+
+
+/*CONTACT US*/
+
+.contactUS {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("back.jpg");
+    background-size: 1500px 800px;
+    height: 600px;
+}
+
+.contactUs {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    text-align-last: bottom;
+}
+
+
+/* Blog*/
+
+.blog {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-image: url("blogback.jpg");
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: aliceblue;
+}
+
+
+/*contact*/
+
+.contactUs {
+    margin-bottom: 100 900px;
+    margin-top: 50px;
+    background-color: rgb(22, 155, 78);
+    height: 600px;
+}
+
+.contactUs {
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin: 10px;
+}
+
+.contactUs textarea {
+    margin: 10px;
+    border: none;
+}
+
+.contactUs {
+    background-image: url("map.jpg");
+    background-size: 500px 500px;
+    height: 950px;
+    border: solid black;
+}
+
+.contactus button {
+    margin: 10px;
+    width: 300px;
+}
+
+
+/*footer*/
+
+.container2 {
+    padding: 100px;
+    font-size: 50px;
+    background-color: rgb(5, 17, 43);
+    border-bottom: black;
+}
+
+.container2 a:hover {
+    color: rgb(35, 39, 33);
+}
